@@ -35,7 +35,7 @@ CREATE TABLE [Burial] (
   [SouthToHead] decimal not null,
   [SouthToFeet] decimal not null,
   [WestToHead] decimal not null,
-  [WestToFeet] type not null,
+  [WestToFeet] decimal not null,
   [Length] decimal not null,
   [Depth] decimal not null,
   [PhotoTaken] bit not null,

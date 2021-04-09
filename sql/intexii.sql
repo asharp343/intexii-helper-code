@@ -39,6 +39,7 @@ CREATE TABLE [Burial] (
   [Length] decimal not null,
   [Depth] decimal not null,
   [PhotoTaken] bit not null,
+  [BurialGoods] bit not null,
   [DateFound] DateTime,
   [ClusterNumber] VarChar(500),
   [SampleNumber] decimal,
